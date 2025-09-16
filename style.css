@@ -29,7 +29,7 @@ header{
     display: flex;
     align-items: center;
     text-align: center;
-    gap: 10px;
+    gap: 8px;
     padding:0 4px;
 
 }
@@ -86,6 +86,8 @@ header{
     line-height: 10px;
     letter-spacing: -0.12px;
     font-weight: 600;
+    position: relative;
+    bottom: 1px;
 }
 .home div:nth-child(2){
     border-bottom:3.2px solid #222222 ;
@@ -99,7 +101,7 @@ header{
     left: 55px;
     top: -13px;
     color: #ffffff; 
-    padding: 4px 7px 3px 6px;
+    padding: 3px 6px 4px 6px;
     line-height: 10px;
     font-weight: 700;
     text-align: center;
@@ -111,6 +113,12 @@ header{
 .home div:nth-child(2){
     margin-top: -13px;
 }
+.experiences div:nth-child(1){
+    position: relative;
+    left: 1px;
+
+}
+
 /* section-one-sub*/
 .section-one-sub{
     width: 100%;
@@ -206,7 +214,7 @@ header{
     font-weight: 400;
     position: relative;
     right: 4px;
-    top: -3px;
+    top: -4px;
 }
 .services a{
     margin-left: 12px;
@@ -217,7 +225,7 @@ header{
     font-weight: 400;
     position: relative;
     right: 6px;
-    bottom: 3px;
+    bottom: 4px;
 
 }
 .sub-svg{
@@ -255,6 +263,16 @@ header{
     font-weight: 500;
     margin-right: 24px;
     display: none;
+}
+@media screen and (min-width:768px){
+    .homes p{
+        padding: 3px 7px 4px 6px;
+        top: -17px;
+    }
+    .experiences div:nth-child(1){
+        top: 1px;
+    }
+    
 }
 @media screen and (min-width:1024px){
     .homes{
@@ -608,6 +626,7 @@ main{
     border-radius: 14px;
     box-shadow: 0px 0px 0px 1px rgba(0,0,0,0.02),0px 2px 6px 0px rgba(0,0,0,0.04),0px 4px 8px 0px rgba(0,0,0,0.10);
     font-weight: 600;
+    font-feature-settings: "salt";
     align-items: center;
     display: flex;
     justify-content: center;
@@ -627,8 +646,8 @@ main{
     display: flex;
     justify-content: space-between;
     width: 100%;
-    gap: 10px;
-    padding:12px;
+    gap: 12px;
+    padding:11px 12px 12px 12px;
 }
 .extra{
     justify-content: end;
@@ -995,11 +1014,22 @@ main{
     width: 24px;
     height: 24px;
 }
+.end-footer div:nth-child(1) img{
+    position: relative;
+    right: 1px;
+}
+.end-footer div:nth-child(2) img{
+    position: relative;
+    right: 1px;
+}
 .end-footer p{
     font-size: 10px;
+    color: #6A6A6A;
+    font-family: regular;
 }
 .end-footer div:nth-child(1) p{
     color: #DA1249;
+    font-family: regular;
 }
 .end-footer div{
     width: 73px;

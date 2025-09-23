@@ -353,6 +353,7 @@ header{
 .input-span{
     font-size: 14px;
     color:#6A6A6A;
+    white-space: nowrap;
 
 }
 .input-sub-location-members{
@@ -487,6 +488,9 @@ header{
     margin: 32px 24px 12px;
 
 }
+/* .second{
+    margin: 28px 24px 12px;
+} */
 .two-heading{
     display: flex;
     justify-content: space-between;
@@ -636,6 +640,7 @@ main{
     padding: 5px 9px;
     backdrop-filter: blur(32px);
 }
+
 .room-section svg{
     width: 24px;
     height: 24px;
@@ -1051,7 +1056,6 @@ main{
     }
     
 }
-
 
 
 

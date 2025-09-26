@@ -861,7 +861,7 @@ main{
 }
 /* footer-last */
 .footer-last{
-    padding: 24px 24px 45px 24px;
+    padding: 24px 24px 41px 24px;
     max-width: 1920px;
     border-top: 1px solid #EBEBEB;
     background-color: #f7f7f7;
@@ -869,7 +869,7 @@ main{
 }
 
 .footer-logo{
-    margin-bottom: 8px;
+    margin-bottom: 7px;
     display: flex;
     gap: 9px;
 }
@@ -899,7 +899,7 @@ main{
     margin-right: 12px;
 }
 .footer-symbols{
-    margin-bottom: 12px;
+    margin-bottom: 14px;
     padding: 8px 0px;
 }
 .footer-symbols ul{
@@ -929,7 +929,7 @@ main{
     font-weight: 400;
     font-size: 14px;
     color:#222222;
-    line-height: 18px;
+    line-height: 20.01px;
 }
 .footer-letter-section span{
     font-size: 14px;
